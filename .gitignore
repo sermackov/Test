@@ -1,0 +1,16 @@
+# Настройки PyCharm
+.idea/
+
+# Стандартные игноры Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.so
+*.egg
+dist/
+build/# created by virtualenv automatically
