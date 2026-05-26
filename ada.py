@@ -3,7 +3,7 @@ def main():
     try:
         a = float(input("Введи первое число: "))
         b = float(input("Введи второе число: "))
-        op = input("Выбери операцию (+, -, *, /): ")
+        op = input("Выбери операцию (+, -, *, /, ^): ")
 
         if op == '+':
             result = a + b
@@ -16,6 +16,8 @@ def main():
                 print("Ошибка: деление на ноль!")
                 return
             result = a / b
+        elif op == '**' or op == '^':
+            result = a ** b
         else:
             print("Неизвестная операция!")
             return
